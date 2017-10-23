@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.react_native_flex;
 
 import android.app.Application;
 
