@@ -1,3 +1,3 @@
-react-native 布局
+react-native flex 布局
 
 ![](1.png)
