@@ -4,7 +4,21 @@
 
 react-native 就下面四种 flex 属性控制布局。
 ```
-//flexDirection（主轴）
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#fff',
+  },
+  item: {
+    backgroundColor: '#4385f5',
+    color: 'white',
+    textAlign: 'center',
+    fontSize: 50,
+    lineHeight: 100,
+    width: 100,
+    height: 100,
+    margin: 5,
+  },
+  //flexDirection（主轴）
   //column（默认 从上向下）| column-reverse |  row | row-reverse 
   box_flexDirection: {
     flexDirection: 'column'
@@ -27,4 +41,5 @@ react-native 就下面四种 flex 属性控制布局。
   box_alignItems: {
     alignItems: 'flex-start'
   },
+});
   ```
