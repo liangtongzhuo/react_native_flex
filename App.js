@@ -72,16 +72,16 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     flexDirection: 'row',    
   },
+  //alignItems（用于描述交叉轴（又名 侧轴））
+  //flex-start（默认）| flex-end | center | baseline（第一行字体对齐）| stretch（侧轴方向撑满）
+  box_alignItems: {
+    alignItems: 'flex-start'
+  },
   //flexWrap （描述一行排满是否换行） 
   //nowrap（默认 不换行）| wrap 
   box_flexWrap: {
     flexWrap: 'wrap',
     flexDirection: 'row',
-  },
-  //alignItems（用于描述交叉轴（又名 侧轴））
-  //flex-start（默认）| flex-end | center | baseline（第一行字体对齐）| stretch（侧轴方向撑满）
-  box_alignItems: {
-    alignItems: 'flex-start'
   },
 });
 
